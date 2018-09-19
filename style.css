@@ -1,0 +1,22 @@
+h1 {
+  font-size: 20;
+  color: #990000;
+}
+
+h2 {
+  font-weight: 16;
+  color: #CC3300;
+}
+
+table {
+  border: 1px;
+}
+
+table td {
+  border: 1px 
+  padding: .5;
+}
+
+.featured_image img {
+  width: 90%;
+}

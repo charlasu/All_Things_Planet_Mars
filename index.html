@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>All Things Planet Mars</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+      <div class="row1">
+        <div class="jumbotron">
+            <h1>All Things Planet Mars</h1>
+            <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Get Latest Mars Details</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="jumbotron">
+            <h2>Red Planet News</h2>
+            <h4>{{mars_website.news_headline}}</h4>
+            <p>{{mars_website.news_teaser}}</p>
+        </div>
+      </div>
+      <div class="row3">
+        <div class="img">
+            <h2>Today's Featured Photo</h2>
+            <img src="{{mars_website.img}}" />
+          </div>
+        </div>
+      </div>
+      <div class="row4">
+        <div class="img">
+            <h2>Today's Weather</h2>
+            <p>{{mars_website.weather}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="row4">
+        <div class="img">
+            <h2>Fun Facts</h2>
+            <p>{{mars_website.mars_facts}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="row5">
+        <div class="img">
+            <h2>Hemispheric Views</h2>
+            <p>{{mars_website.hemisphere_images}}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
